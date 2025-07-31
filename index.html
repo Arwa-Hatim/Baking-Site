@@ -7,6 +7,9 @@
         <link rel="stylesheet" href="./style.css">
         <link rel="icon" href="./favicon.ico" type="image/x-icon">
         <style>
+            html {
+                scroll-behavior: smooth;
+            }
             body {
                 font-family: Arial, Helvetica, sans-serif;
                 margin: 0;
@@ -60,15 +63,15 @@
         </style>
     </head>
     <body>
-        <header>
+        <header id="home">
             <h1>Baking Crumbs</h1>
             <p>The dedicated baking page for sweet recipes and tips!</p>
         </header>
         <nav class="w3-bar w3-black">
-            <a href="/">Home</a>
-            <a href="/">Recipes</a>
-            <a href="/">Baking Tips</a>
-            <a href="/">Contact</a>
+            <a href="#home">Home</a>
+            <a href="#recipes">Recipes</a>
+            <a href="#tips">Baking Tips</a>
+            <a href="#contact">Contact</a>
         </nav>
         <main>
                 <article id="recipes">
@@ -91,7 +94,7 @@
                     </section>
                 </article>
 
-                <article id="Tips">
+                <article id="tips">
                     <h2>Top Baking Tips</h2>
                     <ul>
                         <li>Always preheat your oven.</li>
@@ -100,7 +103,7 @@
                     </ul>
                 </article>
 
-                <article id="Contact">
+                <article id="contact">
                     <h2>Contact Us</h2>
                     <p>Have a question or a recipe to share? Email us at <a href="mailto:astropinkie@gmail.com">astropinkie@gmail.com</a></p>
                 </article>
